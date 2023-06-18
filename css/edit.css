@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.masthead .container #Title, #Subtitle{
+    color: #ffc800;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.row{
+    padding-bottom: 2rem;
+    justify-content: center;
+}
+
+.row #col2 img{
+    height: 100px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.row .kit{
+    height: 20rem;
+    width: auto;
+}
+
+.portfolio-item .img-fluid{
+    height: 303px;
+    width: 1024px;
+    object-fit: cover;
+}
+
+#team .container .text-center{
+    margin-bottom: 2.5rem;
+}
+
+#contact .container .text-center{
+    margin-bottom: 2rem;
+}
+
+#contact .sub-contact{
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+}
+
+@media (min-width: 912px) {
+
+
+    .row #col1{
+        text-align: left !important;
+    }
+
+
+    .row #col2 img{
+        height: 20rem;
+        width: auto;
+        object-fit: cover;
+    }
+
+    
+}
+
+@media (max-width: 600px){
+
+    .row #col2 img{
+        display: none;
+    }
+
+}
